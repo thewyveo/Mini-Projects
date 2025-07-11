@@ -38,7 +38,7 @@ if __name__ == "__main__":
     choice = input("encode (e) or decode (d)? ").strip().upper()
 
     if choice.lower() == 'e':
-        text = input("Enter text to encode: ")
+        text = input("enter text to encode: ")
         result = encode(text, key)
         with open("encoded.txt", "w") as f:
             f.write(result)
