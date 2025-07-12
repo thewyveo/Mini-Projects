@@ -3,7 +3,10 @@ A repository containing the smaller projects (e.g. standalone scripts or small t
 
 <code>
 ├── encoder-decoder: a script to encode or decode a given text based on a set keyword
-├── image: contains two scripts, one to resize an image and one to pixelate an image
+├── image: contains scripts for image manipulation
+│   ├── resizer: resizes an image to a given dimension
+│   ├── pixelator: pixelates an image
+│   └── color-palette: extracts a color palette from an image via k-means clustering
 ├── montecarlo: a script to estimate digits of pi using the monte carlo approximation method
 ├── nqueens: a genetic algorithm to optimize/solve the n-queens problem
 ├── password-generator: a script to generate a password based on customizable parameters
